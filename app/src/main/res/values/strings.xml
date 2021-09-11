@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Week1Work</string>
+    <string name="main_page_title">KELIME TESTI</string>
+    <string name="main_page_content">Kelime Testi, Sizin dil seviyenizi ölçmek içindir. Test sonunda doğru ve yanlışlarınızı görebileceksiniz!</string>
+    <string name="main_page_button_title">Şimdi Başla</string>
+
+</resources>

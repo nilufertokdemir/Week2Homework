@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityFragment"
+    android:id="@+id/main_activity_fragment"
+    android:background="@color/view_background_color">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/main_page_logo"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_page_content"
+        app:srcCompat="@drawable/ic_decky_first_test_screen"
+        tools:ignore="VectorDrawableCompat" />
+
+    <android.support.v7.widget.AppCompatCheckedTextView
+        android:id="@+id/main_page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/main_page_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/main_page_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatCheckedTextView
+        android:id="@+id/main_page_content"
+        android:layout_width="215dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginStart="102dp"
+        android:text="@string/main_page_content"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/main_page_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_page_title"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/main_page_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="61dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/main_activity_button"
+        android:text="@string/main_page_button_title"
+        app:layout_constraintBottom_toTopOf="@+id/main_page_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_page_content"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
